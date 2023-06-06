@@ -66,8 +66,9 @@ The bug that had to do with each output showing 2/4 tests passed comes from the 
 **Content of grade.sh:**
 
 > Code used and fixed for this example can be found [here](https://github.com/ucsd-cse15l-f22/list-examples-grader)
-> 
-```
+
+
+```bash
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
@@ -127,7 +128,7 @@ fi
 ```
 **Contents of local ListExamples.java:**
 
-```
+```java
 import java.util.ArrayList;
 import java.util.List;
 
