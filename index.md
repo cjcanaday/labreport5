@@ -2,6 +2,8 @@
 
 ## Part 1
 
+**Code used and fixed for this example can be found [here](https://github.com/ucsd-cse15l-f22/list-examples-grader)**
+
 ### Original Post
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
@@ -64,9 +66,6 @@ The bug that had to do with each output showing 2/4 tests passed comes from the 
 <img width="230" alt="Screen Shot 2023-06-05 at 4 56 36 PM" src="https://github.com/cjcanaday/labreport5/assets/40177716/669c0fa0-82eb-417e-8163-7e963d28bfc9">
 
 **Content of grade.sh:**
-
-> Code used and fixed for this example can be found [here](https://github.com/ucsd-cse15l-f22/list-examples-grader)
-
 
 ```bash
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
